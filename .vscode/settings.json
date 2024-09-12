@@ -1,1 +1,7 @@
-{}
+{
+	"rust-analyzer.cargo.features": [
+		"unit",
+		"integration"
+	],
+	"rust-analyzer.cargo.noDefaultFeatures": false
+}
