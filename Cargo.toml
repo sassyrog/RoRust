@@ -4,10 +4,19 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-
+clap = "4.5.17"
+curl = "0.4.46"
+dirs = "5.0.1"
+flate2 = "1.0.33"
+globalenv = "0.4.2"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+tar = "0.4.41"
 
 [dev-dependencies]
 pretty_assertions = "1.4.0"
+
+winreg = "0.52.0"
 
 [features]
 unit = []
